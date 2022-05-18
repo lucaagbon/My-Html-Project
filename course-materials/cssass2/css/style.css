@@ -1,0 +1,302 @@
+
+body{
+	margin: 0;
+	padding:0;
+	margin-right: -90px;
+
+}
+.navigation{
+	height: 50px;
+	background-color: #fff;
+	line-height: 40px;
+	margin:0;
+}
+
+.navigation a{
+	margin-right: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	color: grey;
+}
+
+.navigation a:hover{
+	border: 1px solid lime;
+	background: aquamarine;
+	padding: 15px;
+}
+.header{
+	height: 300px;
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+
+}
+
+.john{
+	display: flex;
+	justify-content: center;
+}
+
+@font-face {
+ font-family:'amaranthBold';
+ src: url('../fonts/amaranth-bold-webfont.eot');
+ src: url('../fonts/amaranth-bold-webfont.eot?#iefix') 
+format('embedded-opentype'),
+ url('../fonts/amaranth-bold-webfont.woff2') 
+format('woff2'),
+ url('../fonts/amaranth-bold-webfont.woff') format('woff'),
+ url('../fonts/amaranth-bold-webfont.ttf') 
+format('truetype'),
+ url('../fonts/amaranth-bold-webfont.svg#amaranthregular') 
+format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+*{
+	font-family: 'amaranthBold', sans-serif;
+}
+
+.john figure > img{
+	border-radius: 50%;
+	margin-top:-150px;
+} 
+
+.john figure{
+	text-align: center;
+	color:#aaa;
+}
+
+.john .caption{
+	font-size: 22px;
+	line-height: 0;
+	font-weight: bold;
+}
+
+.john a img{
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+#main-header{
+	height: 450px;
+	background-image: url('../images/section-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+#main-header .container{
+	height: 450px;
+	background-color: rgba(00, 69, 200, 0.5);
+}
+
+#main-header .text{
+	width: 700px;
+	height:250px;
+	margin: auto;
+	text-align: center;
+	padding-top:10px;
+	color:#eee;
+}
+
+.text h2{
+	text-transform: uppercase;
+	color: #ddd;
+}
+
+.text span{
+	color: green;
+}
+
+.column{
+	margin: 0;
+	margin-top: -20px;
+	background-color: #ddd;
+	display: flex;
+	padding-bottom: 30px;
+	justify-content: center;
+}
+
+#experience{
+	margin-top:-15px;
+	text-align: center;
+	color:grey;
+	text-transform: uppercase;
+}
+
+.label > p{
+	color:grey;
+}
+.web-content{
+	width:600px;
+	height:350px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	margin-left: 20px;
+	margin-top:50px;
+}
+.web-content > img{
+	width: 90px;
+	height:70px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.menu{
+	margin-top: -50px;
+	font-size: 13px;
+	width: 420px;
+	height: 250px;
+	margin-left: 50px;
+	color:grey;
+	word-spacing: 5px;
+
+}
+
+.file-download{
+	padding-top: 10px;
+	height: 300px;
+	background-image: url('../images/section-bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.menu li{
+	position: absolute;
+}
+
+.label{
+	position: relative;
+	top:-70px;
+	left: 100px;
+}
+
+.get-file{
+	width: 600px;
+	margin: auto;
+	text-align: center;
+	color: #eee;
+	font-weight: bold;
+}
+
+.overlay1{
+	padding-top: 30px;
+	margin-top: -10px;
+	height: 280px;
+	background-color: rgba(00, 15,200, 0.6);
+}
+
+.get-file button {
+	width:100px;
+	height: 40px;
+	background-color:green;
+	border-radius: 20px;
+	border-color:green;
+}
+
+button a{
+	color:white;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+button a:hover{
+	color:yellow;
+}
+
+#portfolio{
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 120px;
+	margin-bottom: -20px;
+	color:#aaa;
+}
+
+.port-logo{
+	display: flex;
+	justify-content: center;
+}
+
+.port-images > img{
+	width: 450px;
+}
+
+.main-contact{
+	display: flex;
+	justify-content: center;
+}
+
+#contact{
+	text-align: center;
+	text-transform: uppercase;
+	color:grey;
+}
+.contact-form{
+	margin-left: 10px;
+}
+
+input[type="text"], select[type="medium"]{
+	width: 600px;
+	height: 30px;
+	border: 2px solid lime;
+}
+
+input[type="text"], select[type="medium"]:active{
+	border:2px solid lime;
+}
+
+textarea{
+	border:2px solid lime;
+}
+
+textarea:active{
+	border:2px solid lime;
+}
+
+button[type="submit"]{
+	background: lime;
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	border: 2px solid lime;
+	color:#fff;
+}
+.main-table{
+	height: 450px;
+	background-image: url('../images/section-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+.overlay2{
+	height:450px;
+	background-color: rgba(00, 56, 180, 0.6);
+	margin: auto;
+}
+
+table, th, tr, td{
+	border: 1px solid aquamarine;
+	border-collapse: collapse;
+	color:#eee;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pro-table{
+	display: flex;
+	justify-content: center;
+	margin-top: -35px;
+}
+
+#table{
+	text-align: center;
+	line-height: 120px;
+	color: #eee;
+	text-transform: uppercase;
+}
+
+
